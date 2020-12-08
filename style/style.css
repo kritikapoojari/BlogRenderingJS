@@ -21,3 +21,39 @@
 .blog-content p1 {
     font-size: 1.5vw;
 }
+
+.navigation {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    display: inline;
+    margin: 10px;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: black;
+    text-align: center;
+}
+
+.footer-sub {
+    text-align: center;
+}
